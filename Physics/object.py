@@ -9,3 +9,6 @@ class Object:
     
     def __str__(self):
         return "{} with position ({}, {})".format(self._name, self._x, self._y)
+    
+    def __repr__(self):
+        return "{} with position ({}, {})".format(self._name, self._x, self._y)
